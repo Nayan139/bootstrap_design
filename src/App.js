@@ -11,13 +11,6 @@ import Cards from "./components/Cards";
 import Response from "./components/Response";
 import Alumin from "./components/Alumin";
 import Difference from "./components/Difference";
-import Demo from "./Demo";
-import Demo1 from "./Demo1";
-import ClassDemo from "./components/ClassDemo";
-import DemoState from "./components/DemoState";
-import APIDemo from "./components/APIDemo";
-import Example from "./components/Example";
-import Nesting from "./components/NestingRoute";
 
 function App() {
   return (
@@ -29,13 +22,6 @@ function App() {
       <Response></Response>
       <Alumin></Alumin>
       <Difference></Difference>
-      {/* <Demo name="CDMI"></Demo>
-      <Demo1 namee="isha"></Demo1>
-      <ClassDemo></ClassDemo>
-      <DemoState firstname="nayan"></DemoState> 
-      <APIDemo />*/}
-      {/* <Example />
-      <Nesting></Nesting> */}
     </>
   );
 }

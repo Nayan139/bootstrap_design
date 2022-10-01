@@ -11,6 +11,7 @@ const DemoState = (props) => {
     setCount(count + 1);
   };
   const valueChange = (f) => {
+    console.log(txt);
     setTxt(f.target.value);
     document.getElementById("txt").innerHTML = f.target.value;
   };

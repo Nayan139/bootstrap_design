@@ -1,9 +1,5 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import s1 from "../asset/s1.jpg";
-import s2 from "../asset/s2.jpg";
-import s3 from "../asset/s3.jpg";
-import s4 from "../asset/s4.jpg";
 import jpeg1 from "../asset/jpeg1.jpg";
 
 const Slider = () => {

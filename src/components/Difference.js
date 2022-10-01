@@ -34,12 +34,6 @@ const round = {
   marginLeft: "50px",
   hegiht: "300px",
 };
-const po = {
-  hegiht: "70",
-  width: "70",
-  borderRadius: "50%",
-  background: "red",
-};
 const title = {
   textAlign: "center",
   fontWeight: "500",

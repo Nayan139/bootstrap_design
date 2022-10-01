@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 const Demo1 = (props) => {
   const [txt, settxt] = useState("");
 
@@ -7,7 +7,6 @@ const Demo1 = (props) => {
     //console.log(e.target.value);
     document.getElementById("txt").innerHTML = e.target.value;
   };
-  
 
   return (
     <>

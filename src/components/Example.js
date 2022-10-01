@@ -29,17 +29,6 @@ const Example = () => {
           </ul>
 
           <Switch>
-            {/* <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/carrer">
-              <Carrer />
-            </Route>
-            <Route path="/gallery">
-              <Gallery /> */}
             <Route path="/:id" children={<Child />}></Route>
           </Switch>
         </div>
@@ -54,35 +43,6 @@ const Child = () => {
       <div>
         <h3>id: {id}</h3>
       </div>
-    </>
-  );
-};
-const Home = () => {
-  return (
-    <>
-      <h2>Home</h2>
-    </>
-  );
-};
-const About = () => {
-  return (
-    <>
-      <h2>About</h2>
-    </>
-  );
-};
-const Carrer = () => {
-  return (
-    <>
-      <h2>Carrer</h2>
-    </>
-  );
-};
-const Gallery = () => {
-  return (
-    <>
-      <Route1 />
-      <h2>wefewe</h2>
     </>
   );
 };
